@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAE1D3DB2799D0AF00E7FA90 /* KeychainSharingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE1D3CB2799D0AC00E7FA90 /* KeychainSharingApp.swift */; };
+		EAE1D3DC2799D0AF00E7FA90 /* KeychainSharingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE1D3CB2799D0AC00E7FA90 /* KeychainSharingApp.swift */; };
+		EAE1D3DD2799D0AF00E7FA90 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE1D3CC2799D0AC00E7FA90 /* ContentView.swift */; };
+		EAE1D3DE2799D0AF00E7FA90 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE1D3CC2799D0AC00E7FA90 /* ContentView.swift */; };
+		EAE1D3DF2799D0AF00E7FA90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAE1D3CD2799D0AF00E7FA90 /* Assets.xcassets */; };
+		EAE1D3E02799D0AF00E7FA90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAE1D3CD2799D0AF00E7FA90 /* Assets.xcassets */; };
+		EAE1D41C2799D55100E7FA90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAE1D41B2799D55100E7FA90 /* Assets.xcassets */; };
+		EAE1D41F2799D55100E7FA90 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAE1D41E2799D55100E7FA90 /* Preview Assets.xcassets */; };
+		EAE1D425279B40EA00E7FA90 /* KeychainStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE1D424279B40EA00E7FA90 /* KeychainStorage.swift */; };
+		EAE1D426279B40EA00E7FA90 /* KeychainStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE1D424279B40EA00E7FA90 /* KeychainStorage.swift */; };
+		EAE1D427279B40EA00E7FA90 /* KeychainStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE1D424279B40EA00E7FA90 /* KeychainStorage.swift */; };
+		EAE1D428279B40FC00E7FA90 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE1D3CC2799D0AC00E7FA90 /* ContentView.swift */; };
+		EAE1D42D279B448900E7FA90 /* KeychainSharingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE1D3CB2799D0AC00E7FA90 /* KeychainSharingApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EAE1D3CB2799D0AC00E7FA90 /* KeychainSharingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainSharingApp.swift; sourceTree = "<group>"; };
+		EAE1D3CC2799D0AC00E7FA90 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EAE1D3CD2799D0AF00E7FA90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAE1D3D22799D0AF00E7FA90 /* KeychainSharing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeychainSharing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAE1D3D82799D0AF00E7FA90 /* KeychainSharing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeychainSharing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAE1D3DA2799D0AF00E7FA90 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		EAE1D4102799D2EB00E7FA90 /* KeychainSharing (iOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "KeychainSharing (iOS).entitlements"; sourceTree = "<group>"; };
+		EAE1D4152799D54E00E7FA90 /* KeychainSharing (tvOS).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KeychainSharing (tvOS).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAE1D41B2799D55100E7FA90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAE1D41E2799D55100E7FA90 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EAE1D4232799D64B00E7FA90 /* KeychainSharing (tvOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "KeychainSharing (tvOS).entitlements"; sourceTree = "<group>"; };
+		EAE1D424279B40EA00E7FA90 /* KeychainStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainStorage.swift; sourceTree = "<group>"; };
+		EAE1D42E279B45E000E7FA90 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAE1D3CF2799D0AF00E7FA90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAE1D3D52799D0AF00E7FA90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAE1D4122799D54E00E7FA90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAE1D3C52799D0AC00E7FA90 = {
+			isa = PBXGroup;
+			children = (
+				EAE1D42E279B45E000E7FA90 /* README.md */,
+				EAE1D4102799D2EB00E7FA90 /* KeychainSharing (iOS).entitlements */,
+				EAE1D3CA2799D0AC00E7FA90 /* Shared */,
+				EAE1D3D92799D0AF00E7FA90 /* macOS */,
+				EAE1D4162799D54E00E7FA90 /* KeychainSharing (tvOS) */,
+				EAE1D3D32799D0AF00E7FA90 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAE1D3CA2799D0AC00E7FA90 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				EAE1D3CB2799D0AC00E7FA90 /* KeychainSharingApp.swift */,
+				EAE1D3CC2799D0AC00E7FA90 /* ContentView.swift */,
+				EAE1D424279B40EA00E7FA90 /* KeychainStorage.swift */,
+				EAE1D3CD2799D0AF00E7FA90 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		EAE1D3D32799D0AF00E7FA90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAE1D3D22799D0AF00E7FA90 /* KeychainSharing.app */,
+				EAE1D3D82799D0AF00E7FA90 /* KeychainSharing.app */,
+				EAE1D4152799D54E00E7FA90 /* KeychainSharing (tvOS).app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAE1D3D92799D0AF00E7FA90 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAE1D3DA2799D0AF00E7FA90 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		EAE1D4162799D54E00E7FA90 /* KeychainSharing (tvOS) */ = {
+			isa = PBXGroup;
+			children = (
+				EAE1D4232799D64B00E7FA90 /* KeychainSharing (tvOS).entitlements */,
+				EAE1D41B2799D55100E7FA90 /* Assets.xcassets */,
+				EAE1D41D2799D55100E7FA90 /* Preview Content */,
+			);
+			path = "KeychainSharing (tvOS)";
+			sourceTree = "<group>";
+		};
+		EAE1D41D2799D55100E7FA90 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EAE1D41E2799D55100E7FA90 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAE1D3D12799D0AF00E7FA90 /* KeychainSharing (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAE1D3E32799D0AF00E7FA90 /* Build configuration list for PBXNativeTarget "KeychainSharing (iOS)" */;
+			buildPhases = (
+				EAE1D3CE2799D0AF00E7FA90 /* Sources */,
+				EAE1D3CF2799D0AF00E7FA90 /* Frameworks */,
+				EAE1D3D02799D0AF00E7FA90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KeychainSharing (iOS)";
+			productName = "KeychainSharing (iOS)";
+			productReference = EAE1D3D22799D0AF00E7FA90 /* KeychainSharing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAE1D3D72799D0AF00E7FA90 /* KeychainSharing (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAE1D3E62799D0AF00E7FA90 /* Build configuration list for PBXNativeTarget "KeychainSharing (macOS)" */;
+			buildPhases = (
+				EAE1D3D42799D0AF00E7FA90 /* Sources */,
+				EAE1D3D52799D0AF00E7FA90 /* Frameworks */,
+				EAE1D3D62799D0AF00E7FA90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KeychainSharing (macOS)";
+			productName = "KeychainSharing (macOS)";
+			productReference = EAE1D3D82799D0AF00E7FA90 /* KeychainSharing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAE1D4142799D54E00E7FA90 /* KeychainSharing (tvOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAE1D4202799D55100E7FA90 /* Build configuration list for PBXNativeTarget "KeychainSharing (tvOS)" */;
+			buildPhases = (
+				EAE1D4112799D54E00E7FA90 /* Sources */,
+				EAE1D4122799D54E00E7FA90 /* Frameworks */,
+				EAE1D4132799D54E00E7FA90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KeychainSharing (tvOS)";
+			productName = "KeychainSharing (tvOS)";
+			productReference = EAE1D4152799D54E00E7FA90 /* KeychainSharing (tvOS).app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAE1D3C62799D0AC00E7FA90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					EAE1D3D12799D0AF00E7FA90 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					EAE1D3D72799D0AF00E7FA90 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					EAE1D4142799D54E00E7FA90 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = EAE1D3C92799D0AC00E7FA90 /* Build configuration list for PBXProject "KeychainSharing" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAE1D3C52799D0AC00E7FA90;
+			productRefGroup = EAE1D3D32799D0AF00E7FA90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAE1D3D12799D0AF00E7FA90 /* KeychainSharing (iOS) */,
+				EAE1D3D72799D0AF00E7FA90 /* KeychainSharing (macOS) */,
+				EAE1D4142799D54E00E7FA90 /* KeychainSharing (tvOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAE1D3D02799D0AF00E7FA90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAE1D3DF2799D0AF00E7FA90 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAE1D3D62799D0AF00E7FA90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAE1D3E02799D0AF00E7FA90 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAE1D4132799D54E00E7FA90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAE1D41F2799D55100E7FA90 /* Preview Assets.xcassets in Resources */,
+				EAE1D41C2799D55100E7FA90 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAE1D3CE2799D0AF00E7FA90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAE1D3DD2799D0AF00E7FA90 /* ContentView.swift in Sources */,
+				EAE1D3DB2799D0AF00E7FA90 /* KeychainSharingApp.swift in Sources */,
+				EAE1D425279B40EA00E7FA90 /* KeychainStorage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAE1D3D42799D0AF00E7FA90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAE1D3DE2799D0AF00E7FA90 /* ContentView.swift in Sources */,
+				EAE1D3DC2799D0AF00E7FA90 /* KeychainSharingApp.swift in Sources */,
+				EAE1D426279B40EA00E7FA90 /* KeychainStorage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAE1D4112799D54E00E7FA90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAE1D42D279B448900E7FA90 /* KeychainSharingApp.swift in Sources */,
+				EAE1D428279B40FC00E7FA90 /* ContentView.swift in Sources */,
+				EAE1D427279B40EA00E7FA90 /* KeychainStorage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EAE1D3E12799D0AF00E7FA90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EAE1D3E22799D0AF00E7FA90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		EAE1D3E42799D0AF00E7FA90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "KeychainSharing (iOS).entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nickcooke.KeychainSharing;
+				PRODUCT_NAME = KeychainSharing;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAE1D3E52799D0AF00E7FA90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "KeychainSharing (iOS).entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nickcooke.KeychainSharing;
+				PRODUCT_NAME = KeychainSharing;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAE1D3E72799D0AF00E7FA90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nickcooke.KeychainSharing;
+				PRODUCT_NAME = KeychainSharing;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EAE1D3E82799D0AF00E7FA90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nickcooke.KeychainSharing;
+				PRODUCT_NAME = KeychainSharing;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EAE1D4212799D55100E7FA90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "KeychainSharing (tvOS)/KeychainSharing (tvOS).entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KeychainSharing (tvOS)/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nickcooke.KeychainSharing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+			};
+			name = Debug;
+		};
+		EAE1D4222799D55100E7FA90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "KeychainSharing (tvOS)/KeychainSharing (tvOS).entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KeychainSharing (tvOS)/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nickcooke.KeychainSharing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAE1D3C92799D0AC00E7FA90 /* Build configuration list for PBXProject "KeychainSharing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAE1D3E12799D0AF00E7FA90 /* Debug */,
+				EAE1D3E22799D0AF00E7FA90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAE1D3E32799D0AF00E7FA90 /* Build configuration list for PBXNativeTarget "KeychainSharing (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAE1D3E42799D0AF00E7FA90 /* Debug */,
+				EAE1D3E52799D0AF00E7FA90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAE1D3E62799D0AF00E7FA90 /* Build configuration list for PBXNativeTarget "KeychainSharing (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAE1D3E72799D0AF00E7FA90 /* Debug */,
+				EAE1D3E82799D0AF00E7FA90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAE1D4202799D55100E7FA90 /* Build configuration list for PBXNativeTarget "KeychainSharing (tvOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAE1D4212799D55100E7FA90 /* Debug */,
+				EAE1D4222799D55100E7FA90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAE1D3C62799D0AC00E7FA90 /* Project object */;
+}
