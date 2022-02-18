@@ -1,4 +1,4 @@
-This repro corresponds to SwiftFormat/#1142.
+This repro corresponds to [SwiftFormat/#1142](https://github.com/nicklockwood/SwiftFormat/issues/1142).
 
 To repro the issue:
 ```
