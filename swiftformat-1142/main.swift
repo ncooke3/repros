@@ -8,7 +8,7 @@ enum CustomError: Error {
 // This function should return the given string
 // if it is not `nil`, else throw an error.
 func foo(_ bar: String?) throws -> String {
-    return try bar ?? throw CustomError.emptyValue
+    return try bar ?? { throw CustomError.emptyValue }()
 }
 
 // Running swift-format on this file will transform this line:
